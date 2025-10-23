@@ -1,8 +1,9 @@
 import { Routes, Route } from "react-router-dom";
+import SongFeed from "./pages/song";
 
 const AppRoutes = () => (
   <Routes>
-    <Route path="/" element={<></>} />
+    <Route path="/" element={<SongFeed />} />
     <Route path="/login" element={<></>} />
     <Route
       path="/dashboard"
