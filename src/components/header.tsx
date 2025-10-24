@@ -1,3 +1,4 @@
+import LanguageSwitcher from "./language_switcher";
 import SearchBar from "./search_bar";
 
 export default function Header() {
@@ -14,6 +15,9 @@ export default function Header() {
       </div>
       <div>
         <SearchBar />
+      </div>
+      <div>
+        <LanguageSwitcher />
       </div>
     </header>
   );
