@@ -1,3 +1,5 @@
 {
-  "searchPlaceholder": "What do you want to play?"
+  "searchPlaceholder": "What do you want to play?",
+  "header.login": "Log in",
+  "header.signup": "Sign up"
 }

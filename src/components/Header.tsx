@@ -1,5 +1,7 @@
-import LanguageSwitcher from "./language_switcher";
-import SearchBar from "./search_bar";
+import LanguageSwitcher from "./LanguageSwitcher";
+import LoginButton from "./LoginButton";
+import SearchBar from "./SearchBar";
+import SignUpButton from "./SignUpButton";
 
 export default function Header() {
   return (
@@ -15,6 +17,12 @@ export default function Header() {
       </div>
       <div>
         <SearchBar />
+      </div>
+      <div>
+        <SignUpButton />
+      </div>
+      <div>
+        <LoginButton />
       </div>
       <div>
         <LanguageSwitcher />

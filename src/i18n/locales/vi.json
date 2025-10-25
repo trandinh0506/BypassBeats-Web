@@ -1,3 +1,5 @@
 {
-  "searchPlaceholder": "Bạn muốn phát nội dung gì?"
+  "searchPlaceholder": "Bạn muốn phát nội dung gì?",
+  "header.login": "Đăng nhập",
+  "header.signup": "Đăng ký"
 }
